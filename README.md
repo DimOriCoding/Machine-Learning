@@ -16,6 +16,6 @@ More specifically, the performance of the SVM algorithm for recognizing handwrit
 
 More specifically,  a 1-second music signal is classified into the following genres: classical music, pop, rock, and blues. For each 1 second, two different audio signal representations are used: 
 (i) MFCCs, which are power spectrum coefficients transformed based on the mel scale, a scale that is close to the way humans perceive sound signals through hearing.
-(ii) mel-spectograms: A spectrogram is a two-dimensional representation that shows the temporal evolution of the frequency spectrum. If we apply the mel scale to the spectrogram, we get the mel-spectrogram or melgram, which is used to predict music genres.
+(ii) mel-spectograms: A spectrogram is a two-dimensional representation that shows the temporal evolution of the frequency spectrum. If we apply the mel scale to the spectrogram, we get the mel-spectrogram or melgram, which is used to predict music genres. (The dataset in which the classification is implemented: **https://drive.google.com/drive/folders/1lGCEzV1vnJp8-t_mDVtA2HOvvwp9Ujzq**)
 The classifier created for the purpose of predicting music genres is evaluated for its ability to generalize to real-world data that it has not been trained on,
 such as YouTube videos. 
